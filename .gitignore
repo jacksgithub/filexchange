@@ -1,0 +1,5 @@
+uploads/
+.cfg.php
+.htaccess
+.user.ini
+debug.php

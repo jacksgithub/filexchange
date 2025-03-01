@@ -1,0 +1,46 @@
+html,
+body {
+	margin: 0;
+	padding: 0;
+}
+body {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 16px;
+}
+section {
+	padding: 10px;
+}
+h1 {
+	font-size: 2rem;
+}
+
+button,
+input {
+	padding: 10px;
+	border-radius: 5px;
+	border: 1px solid #ccc;
+}
+input[type='submit'] {
+	cursor: pointer;
+	background-color: rgb(238, 238, 238, 0.5);
+}
+input[type='submit']:hover {
+	background-color: rgb(238, 238, 238, 1);
+}
+
+.message,
+.error {
+	padding: 10px;
+	font-style: italic;
+	border-radius: 5px;
+}
+.message {
+	border: 1px solid #0b9c56;
+	background-color: rgba(60, 184, 60, 0.1);
+	color: #0b9c56;
+}
+.error {
+	border: 1px solid #d70c0c;
+	background-color: rgba(190, 20, 20, 0.1);
+	color: #d70c0c;
+}
