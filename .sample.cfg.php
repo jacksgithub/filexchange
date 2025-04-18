@@ -1,2 +1,2 @@
 <?php
-define('UPLOAD_PATH', 'your_upload_dir/');
+define('UPLOAD_PATH', '/your/upload/path/here');
